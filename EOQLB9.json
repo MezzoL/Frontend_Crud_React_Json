@@ -1,0 +1,256 @@
+{
+  "customers": [
+    {
+      "id": "126663zhcyue",
+      "cname": "Jerald Parisian",
+      "email": "Jerald42@gmail.com",
+      "address": "51740 Reynolds Loop Suite 494 North Carmeloborough",
+      "birthdate": "Aug 27 2000",
+      "jobarea": "Quality",
+      "workplace": "Gottlieb Group"
+    },
+    {
+      "id": "qh8553cu31uh",
+      "cname": "Krystal Daniel",
+      "email": "Krystal48@yahoo.com",
+      "address": "6172 Kaela Ports Suite 788 Fort Nicolatown",
+      "birthdate": "Aug 03 1978",
+      "jobarea": "Research",
+      "workplace": "Gleichner, Flatley and Lueilwitz"
+    },
+    {
+      "id": "20vgay83yf55",
+      "cname": "Juana Lakin",
+      "email": "Juana.Lakin@yahoo.com",
+      "address": "30494 Antonetta Parks Apt. 600 Batzside",
+      "birthdate": "Jul 09 1983",
+      "jobarea": "Data",
+      "workplace": "Larkin, Haley and Mante"
+    },
+    {
+      "id": "hpcr325329bz",
+      "cname": "Alison O'Reilly",
+      "email": "Alison28@gmail.com",
+      "address": "47459 Schowalter Parkways Apt. 949 Sabinaport",
+      "birthdate": "May 04 1961",
+      "jobarea": "Research",
+      "workplace": "Kris LLC"
+    },
+    {
+      "id": "17jdoj21ok66",
+      "cname": "Geoffrey Hermann",
+      "email": "Geoffrey_Hermann@gmail.com",
+      "address": "581 Schuppe Causeway Suite 692 South Jordyn",
+      "birthdate": "Apr 19 1962",
+      "jobarea": "Division",
+      "workplace": "Hansen - Farrell"
+    },
+    {
+      "id": "qq489214vnfg",
+      "cname": "William Doyle",
+      "email": "William_Doyle@hotmail.com",
+      "address": "16978 Zulauf Coves Apt. 206 Santa Barbara",
+      "birthdate": "Dec 12 1981",
+      "jobarea": "Intranet",
+      "workplace": "Schroeder - Sauer"
+    },
+    {
+      "id": "70gl25rv95cy",
+      "cname": "Alex Kris",
+      "email": "Alex83@yahoo.com",
+      "address": "90362 Vandervort Motorway Apt. 047 New Rozellachester",
+      "birthdate": "Jul 21 1990",
+      "jobarea": "Response",
+      "workplace": "Sipes - Schroeder"
+    },
+    {
+      "id": "wc53zbgq6554",
+      "cname": "Mable Jones",
+      "email": "Mable.Jones3@yahoo.com",
+      "address": "09148 Edna Throughway Suite 257 Flower Mound",
+      "birthdate": "Oct 12 1986",
+      "jobarea": "Implementation",
+      "workplace": "Kris LLC"
+    },
+    {
+      "id": "56sb27qyza77",
+      "cname": "Natalie Kihn",
+      "email": "Natalie_Kihn14@hotmail.com",
+      "address": "4283 Weissnat Shores Suite 062 Concord",
+      "birthdate": "Oct 26 1965",
+      "jobarea": "Tactics",
+      "workplace": "Nikolaus Group"
+    },
+    {
+      "id": "xa6554zx38vz",
+      "cname": "Alton Swaniawski",
+      "email": "Alton.Swaniawski@yahoo.com",
+      "address": "80534 Marcos Hill Apt. 005 West Shanie",
+      "birthdate": "Dec 25 1997",
+      "jobarea": "Solutions",
+      "workplace": "Daniel - Mills"
+    },
+    {
+      "id": "537869ycvstn",
+      "cname": "Maxine Huel",
+      "email": "Maxine.Huel98@yahoo.com",
+      "address": "7396 Alayna Oval Suite 915 New Maxie",
+      "birthdate": "Jan 12 1963",
+      "jobarea": "Markets",
+      "workplace": "Willms and Sons"
+    },
+    {
+      "id": "43lajc6325rs",
+      "cname": "Kristopher Rowe",
+      "email": "Kristopher17@gmail.com",
+      "address": "04944 Tyree Extension Suite 460 El Monte",
+      "birthdate": "Jul 15 1993",
+      "jobarea": "Paradigm",
+      "workplace": "Hirthe and Sons"
+    },
+    {
+      "id": "eb87al60ri58",
+      "cname": "Michele Hauck",
+      "email": "Michele.Hauck4@gmail.com",
+      "address": "48052 Leuschke Gateway Apt. 677 Rozellahaven",
+      "birthdate": "Jun 01 1964",
+      "jobarea": "Metrics",
+      "workplace": "Wunsch Inc"
+    },
+    {
+      "id": "4489pzai97sf",
+      "cname": "Rodney Jast",
+      "email": "Rodney85@yahoo.com",
+      "address": "72541 Schumm Trafficway Apt. 441 Lake Mariano",
+      "birthdate": "Apr 26 1991",
+      "jobarea": "Infrastructure",
+      "workplace": "Schumm, Runolfsdottir and Ward"
+    },
+    {
+      "id": "51xgncbc1786",
+      "cname": "Kelli Strosin",
+      "email": "Kelli_Strosin65@hotmail.com",
+      "address": "3125 Prosacco Spurs Apt. 095 Lake Mayehaven",
+      "birthdate": "Sep 18 1968",
+      "jobarea": "Mobility",
+      "workplace": "Wehner and Sons"
+    },
+    {
+      "id": "5937mijf38uk",
+      "cname": "Kenneth Pfannerstill",
+      "email": "Kenneth_Pfannerstill78@hotmail.com",
+      "address": "789 Schamberger Causeway Suite 301 West Samson",
+      "birthdate": "Oct 12 1970",
+      "jobarea": "Operations",
+      "workplace": "McCullough Group"
+    },
+    {
+      "id": "35lj91ne75bq",
+      "cname": "Wilfred Altenwerth",
+      "email": "Wilfred.Altenwerth69@gmail.com",
+      "address": "5751 Violette Mill Suite 829 Fort Carlos",
+      "birthdate": "Jul 12 1963",
+      "jobarea": "Directives",
+      "workplace": "Wunsch, Swaniawski and Kertzmann"
+    },
+    {
+      "id": "uz94yp9099fe",
+      "cname": "Jackie Emard",
+      "email": "Jackie70@yahoo.com",
+      "address": "483 Marcelo Parks Suite 976 Johnsberg",
+      "birthdate": "Mar 11 1975",
+      "jobarea": "Web",
+      "workplace": "Reichert - Feest"
+    },
+    {
+      "id": "98nftf6365ki",
+      "cname": "Sonya Goldner",
+      "email": "Sonya66@hotmail.com",
+      "address": "59452 Kacey Club Suite 186 Simoneville",
+      "birthdate": "Nov 29 1978",
+      "jobarea": "Assurance",
+      "workplace": "Hilpert - Dooley"
+    },
+    {
+      "id": "swsa3736mn17",
+      "cname": "Victor Dooley",
+      "email": "Victor82@yahoo.com",
+      "address": "3817 Kiana Rue Suite 289 Lake Elta",
+      "birthdate": "Feb 10 1977",
+      "jobarea": "Intranet",
+      "workplace": "Crona, Walker and Reilly"
+    },
+    {
+      "id": "ww327942bzzc",
+      "cname": "Armando Kulas",
+      "email": "Armando58@gmail.com",
+      "address": "9370 Volkman Falls Suite 216 New Corytown",
+      "birthdate": "Jan 28 1966",
+      "jobarea": "Metrics",
+      "workplace": "Hermiston Group"
+    },
+    {
+      "id": "50js61rgtj56",
+      "cname": "Hugh Dickinson",
+      "email": "Hugh_Dickinson@yahoo.com",
+      "address": "56273 Christiansen Corner Apt. 208 Daytona Beach",
+      "birthdate": "Apr 25 2003",
+      "jobarea": "Mobility",
+      "workplace": "Kuvalis, Donnelly and McLaughlin"
+    },
+    {
+      "id": "nm55kh72aw26",
+      "cname": "Joann Hayes",
+      "email": "Joann5@yahoo.com",
+      "address": "09795 Dina Inlet Suite 905 Rowenaside",
+      "birthdate": "Jan 06 1971",
+      "jobarea": "Security",
+      "workplace": "Zieme, Stoltenberg and Hermiston"
+    },
+    {
+      "id": "bgzs144330wf",
+      "cname": "Phil Crooks",
+      "email": "Phil72@yahoo.com",
+      "address": "69972 Mafalda Cove Suite 097 North Cleoboro",
+      "birthdate": "Jul 21 1989",
+      "jobarea": "Interactions",
+      "workplace": "Rogahn - Lubowitz"
+    },
+    {
+      "id": "49ex70ho19js",
+      "cname": "Chelsea Veum",
+      "email": "Chelsea_Veum11@gmail.com",
+      "address": "52385 Oberbrunner Fords Apt. 840 Collierville",
+      "birthdate": "Feb 13 1996",
+      "jobarea": "Functionality",
+      "workplace": "Price, Kling and Gutkowski"
+    },
+    {
+      "id": "9181nzbjje66",
+      "cname": "Archie Deckow",
+      "email": "Archie25@gmail.com",
+      "address": "5984 Maxime Fork Suite 185 The Woodlands",
+      "birthdate": "Jun 22 1969",
+      "jobarea": "Accountability",
+      "workplace": "Dicki Inc"
+    },
+    {
+      "id": "ji9755ha47tn",
+      "cname": "Clyde Tromp",
+      "email": "Clyde.Tromp60@hotmail.com",
+      "address": "9037 Lebsack Course Suite 028 West Reneeshire",
+      "birthdate": "Apr 24 1964",
+      "jobarea": "Security",
+      "workplace": "Schamberger - Cole"
+    },
+    {
+      "id": "ieatgn637020",
+      "cname": "Wilbur Hirthe",
+      "email": "Wilbur_Hirthe65@hotmail.com",
+      "address": "363 Fadel Unions Apt. 003 Kuvalisberg",
+      "birthdate": "Feb 25 1972",
+      "jobarea": "Paradigm",
+      "workplace": "Goyette - Parisian"
+    }
+  ]
+}
