@@ -1,37 +1,39 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
+
+const fetchUsers = async () => {
+  const { data } = await axios.get('http://localhost:3000/customers');
+  return data.reverse();
+};
 
 function Home() {
-  const [users, setUsers] = useState([]);
+  const { data: users, isLoading, error } = useQuery(['users'], () => fetchUsers(), {
+    staleTime: 1000 * 60 * 10, // 10 minutes
+  });
+
   const [displayCount, setDisplayCount] = useState(5);
 
-  function loadUsers() {
-    axios.get('http://localhost:3000/customers').then((res) => {
-      setUsers(res.data.reverse());
-    });
-  }
-
-  useEffect(() => {
-    loadUsers();
-  }, []);
-
   function deleteUser(id) {
-    axios.delete(`http://localhost:3000/customers/${id}`).then(loadUsers());
+    axios.delete(`http://localhost:3000/customers/${id}`);
   }
 
   function showMore() {
     setDisplayCount(displayCount + 1);
   }
 
+  if (isLoading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error.message}</div>;
+
   return (
-      <div className='w-[100vw] h-full justify-center items-center flex flex-col px-10 py-8 mt-8'>
+      <div className='w-full h-full justify-center items-center flex flex-col px-10 py-8 mt-8'>
         <h1 className='text-3xl font-bold'>DATA TABLE</h1>
         <div className='flex flex-col'>
           <div className='overflow-x-auto mt-8 sm:-mx-6 items-center lg:-mx-8'>
             <div className='py-4 inline-block min-w-full sm:px-6 lg:px-8'>
               <div className='overflow-hidden'>
-                <table className='min-w-full text-center'>
+                <table className='w-full text-center'>
                   <thead className='border-b bg-gray-800'>
                     <tr>
                       <th scope='col' className='text-sm font-medium text-white px-6 py-4'>

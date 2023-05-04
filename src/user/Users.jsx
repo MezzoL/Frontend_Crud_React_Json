@@ -1,25 +1,27 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import React from 'react';
 import { Link, useParams } from 'react-router-dom';
+import axios from 'axios';
 
 function Users() {
   const { id } = useParams();
 
-  const [user, setUser] = useState([]);
+  const fetchUser = async () => {
+    const response = await axios.get(`http://localhost:3000/customers/${id}`);
+    return response.data;
+  };
 
-  useEffect(() => {
-    axios.get(`http://localhost:3000/customers/${id}`).then((res) => {
-      setUser(res.data);
-    });
-  }, []);
+  const { data: user, isLoading } = useQuery(['user', id], fetchUser);
 
-  console.log(user);
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
   return (
       <div className='h-full w-full flex flex-col mt-32 justify-center items-center'>
         <Link
           to={`/`}
-          className='hover:bg-teal-600 bg-white hover:shadow-md  outline-none rounded-xl font-bold border mt-8 hover:text-teal-200 text-teal-600 border-zinc-400 py-4 px-4 pl-4'
-        >
+          className='hover:bg-teal-600 bg-white hover:shadow-md  outline-none rounded-xl font-bold border mt-8 hover:text-teal-200 text-teal-600 border-zinc-400 py-4 px-4 pl-4'>
           Back To Home
         </Link>
         {user && (

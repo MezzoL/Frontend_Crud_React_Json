@@ -13,6 +13,7 @@ npm install @heroicons/react
 npm i react-intersection-observer
 npm install -g json-server
 npm install react react-dom
+npm install react-query
 npm i react-router-dom
 npm i daisyui
 json-server --watch EOQLB9.json
