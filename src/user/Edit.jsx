@@ -40,7 +40,7 @@ function EditUser() {
   }
 
   return (
-    <div className='w-screen h-full flex flex-col justify-center items-center mt-16'>
+    <div className='w-full max-w-7xl mx-auto sm:px-6 lg:px-8 h-full flex flex-col justify-center items-center mt-16'>
       <h2 className='text-2xl font-bold'>User Details</h2>
       <form className='w-[50%] h-full flex flex-col mt-2'>
         <input
